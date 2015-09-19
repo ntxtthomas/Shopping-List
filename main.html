@@ -1,32 +1,37 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
 	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="icon" type="image/png" href="shopping_cart_racing.png" />
+	<link rel="icon" type="image/png" href="shopping_cart_racing.png">
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
-	<div class="main">
+	<section class="entry">
+		<img id="cart" src="images/blur.jpg">
 		<h1>SHOPPING LIST</h1>
-			<input ID="item">
+		<div class="input">
+			<input id="item"></input>
 			<button type="submit" id="add">+</button>
-		<h2>Drag Items Below to Reorder</h2>
-			<div id ="outer-area">
-        	<input id="add-items" type="text" name="add-items" 	autocomplete="off" placeholder="+ Add items">
-        	<div id="list-area"></div>
-        	<ul id="list">
-					<li class="items"><div class="box"></div><span>Bananas</span><img class="delete" src='images/delete.png'/></li>
-					<li class="items"><div class="box"></div><span>Mustard</span><img class="delete" src='images/delete.png'/></li>
-					<li class="items"><div class="box"></div><span>Eggs</span><img class="delete" src="images/delete.png"/></li>
-					<li class="items"><div class="box"></div><span>Spaghetti</span><img class="delete" src='images/delete.png'/></li>
-				</ul>
-	</div>
+		</div>
+	</section>
 
+	<section class="list-area">
+        <img id="pad" src="images/pady.png"/>
+		<h2>Drag Items Below to Reorder</h2>
+		<div id="listed">
+        	<ul id="list">
+				<li class="items"><div class="box"></div><span>Bananas</span><img class="ex-out" src='images/ex-out.png'/></li>
+				<li class="items"><div class="box"></div><span>Mustard</span><img class="ex-out" src='images/ex-out.png'/></li>
+				<li class="items"><div class="box"></div><span>Eggs</span><img class="ex-out" src="images/ex-out.png"/></li>
+				<li class="items"><div class="box"></div><span>Spaghetti</span><img class="ex-out" src='images/ex-out.png'/></li>
+			</ul>
+		</div>
+	</section>
+	
 	<audio id="boss-sound" src="sound/boss.mp3"></audio>
 	<audio id="market-sound" src="sound/market.mp3"></audio>
 	<audio id="page-sound" src="sound/page.mp3"></audio>
