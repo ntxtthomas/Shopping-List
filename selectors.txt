@@ -1,0 +1,19 @@
+
+	.entry 
+#cart
+	h1
+	.input
+#item
+	#add
+
+	.list-area
+	h2
+	#listed
+	#list
+.items
+.box
+.ex-out
+
+#boss-sound
+#market-sound
+#page-sound

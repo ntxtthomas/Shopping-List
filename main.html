@@ -10,31 +10,35 @@
 	<script src="js/app.js"></script>
 </head>
 <body>
-	<section class="entry">
-		<img id="cart" src="images/blur.jpg">
-		<h1>SHOPPING LIST</h1>
-		<div class="input">
-			<input id="item"></input>
-			<button type="submit" id="add">+</button>
+
+	<section class="header" style="margin-top: 10px; margin-bottom: 0px;">
+		<h1 style="text-align: center; margin-bottom: 0px; margin-left: auto; margin-right: auto;"><span class="ctext">SHOPPING</span>LIST</h1>
+	</section>
+	
+	<section class="entry" style="border-top: white solid 1px; height: 300px; margin-top: 0px;">
+		<div class="container" style="margin-top: 75px; margin-left: auto; margin-right: auto; width: 550px; font-size: 20px;">
+			<div class="input" style="margin-top: 115px; margin-bottom: 25px;">
+				<input id="item" style="text-align: left; height: 50px; width: 500px;" class="message" placeholder="  +Add Items Here"</input>
+				<button type="submit" id="add">+</button>
+			</div>
 		</div>
 	</section>
 
-	<section class="list-area">
-        <img id="pad" src="images/pady.png"/>
-		<h2>Drag Items Below to Reorder</h2>
-		<div id="listed">
-        	<ul id="list">
-				<li class="items"><div class="box"></div><span>Bananas</span><img class="ex-out" src='images/ex-out.png'/></li>
-				<li class="items"><div class="box"></div><span>Mustard</span><img class="ex-out" src='images/ex-out.png'/></li>
-				<li class="items"><div class="box"></div><span>Eggs</span><img class="ex-out" src="images/ex-out.png"/></li>
-				<li class="items"><div class="box"></div><span>Spaghetti</span><img class="ex-out" src='images/ex-out.png'/></li>
+	<section class="list-area" style="border: white solid 1px; float: center;">
+        <h2 style="border: white solid 1px; text-align: center; margin: 15px 0px;">Drag Items Below to Reorder</h2>
+		<div id="listed" style="margin-bottom: 750px;">
+			<ul id="list" style="text-align: left; padding: 10px 100px; margin-left: auto; margin-right: auto; width: 600px;">
+				<li class="items"><div class="box"></div><span>Bananas</span><!--<img class="ex-out" src='images/ex-out.png'/>--></li>
+				<li class="items"><div class="box"></div><span>Mustard</span><!--<img class="ex-out" src='images/ex-out.png'/>--></li>
+				<li class="items"><div class="box"></div><span>Eggs</span><!--<img class="ex-out" src="images/ex-out.png"/>--></li>
+				<li class="items"><div class="box"></div><span>Spaghetti</span><!--<img class="ex-out" src='images/ex-out.png'/>--></li>
 			</ul>
 		</div>
 	</section>
-	
-	<audio id="boss-sound" src="sound/boss.mp3"></audio>
-	<audio id="market-sound" src="sound/market.mp3"></audio>
-	<audio id="page-sound" src="sound/page.mp3"></audio>
+
+	<!--<audio id="boss-sound" src="sounds/boss.mp3"></audio>
+	<audio id="market-sound" src="sounds/market.mp3"></audio>
+	<audio id="page-sound" src="sounds/page.mp3"></audio>-->
+
 </body>
 </html>
-
