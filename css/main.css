@@ -52,11 +52,11 @@ h1 {
 	color: gray;
 }
 .ctext {
-	color: #2793C7;
+	color: #DB8C05;
 }
 .entry {
-	background-image: url(../images/blur.jpg);
-	background-position: bottom center;
+	background-image: url(../images/isle.jpg);
+	background-position: center center;
 	background-size: cover;
 	margin: auto;
 	background-repeat: no-repeat; 
@@ -114,12 +114,18 @@ h2 {
     width: 17px;
     background: url(../images/box_Sprite.png) 0 0;
 }
-.ex-out {
+.______??? {
 	float: inherit;
 	margin-top: 3px;
 	display: block;
 	height: 18px;
 	background: url(../images/box_Sprite.png) 17px 0px;
+}
+.delete {
+	float: right;
+	margin-top: 3px;
+	display: block;
+	height: 18px;
 };
 
 
