@@ -61,12 +61,6 @@ h1 {
 	margin: auto;
 	background-repeat: no-repeat; 
 }
-/*#cart {
-
-}
-.input {
-	
-}*/
 #item {
 	border-radius: 10px;
 	color: gray;
@@ -75,14 +69,7 @@ h1 {
 .message {
 	color: gray;
 	opacity: 0.8;
-}/*
-#add {
-	height: 50px;
-	width: 50px;
 }
-.list-area {
-	
-}*/
 h2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
@@ -96,10 +83,7 @@ h2 {
 	margin: inherit;
 	background-repeat: no-repeat; 
 }
-#pady {
-
-}
-#list {
+.list {
 	list-style: none;
 }
 .items {
@@ -114,7 +98,7 @@ h2 {
     width: 17px;
     background: url(../images/box_Sprite.png) 0 0;
 }
-.______??? {
+.ex {
 	float: inherit;
 	margin-top: 3px;
 	display: block;
