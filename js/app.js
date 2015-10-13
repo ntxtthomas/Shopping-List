@@ -32,9 +32,8 @@ $(document).ready(function(){
 
 //sortable list items
 	//$('#list').sortable({ axis: "y" });
-	/*function boxDrag(event) {
-	event.preventDefault();
-	};*/
+	$('#list').sortable({ axis: "y" });
+    $('#list').disableSelection();
 	
 //show delete button on mouse hover
 	$('#list').on('mouseenter', 'li', function(){$(this).children('.delete').toggleClass('show');});
